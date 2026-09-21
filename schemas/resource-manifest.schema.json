@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["manifest_version", "mode", "resources", "candidates"],
+  "properties": {
+    "manifest_version": {"type": "string"},
+    "mode": {"const": "resource-only"},
+    "resources": {"type": "array"},
+    "source": {"type": "object"},
+    "candidates": {"type": "array"}
+  }
+}

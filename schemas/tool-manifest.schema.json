@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["name", "description", "validation"],
+  "properties": {"name": {"type": "string"}, "description": {"type": "string"}, "validation": {"type": "object"}}
+}
